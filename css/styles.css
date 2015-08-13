@@ -1,3 +1,4 @@
+
 body {
 	margin: 0;
 	padding: 0;
@@ -10,6 +11,8 @@ body {
 
 #gridContainer {
 	width: 650px;
+
+	background-color: gray;
 }
 
 .row {
@@ -17,6 +20,6 @@ body {
 }
 
 .gridBlock {
-	background-color: gray;
+	border: 1px solid black;
 	float: left;
 }
